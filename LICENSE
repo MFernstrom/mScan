@@ -1,13 +1,13 @@
-mScan
-Copyright (C) 2015 Marcus Fernstrom
-GPL3
+  mScan
+    Copyright (C) 2015 Marcus Fernstrom
+    GPL3
 
-CFML Complexity Metric Tool
-Copyright (C) 2011  Nathan Strutz
-Used under GPL3
-https://github.com/NathanStrutz/CFML-Complexity-Metric-Tool
+  CFML Complexity Metric Tool
+    Copyright (C) 2011  Nathan Strutz
+    Used under GPL3
+    https://github.com/NathanStrutz/CFML-Complexity-Metric-Tool
 
-mScan uses a modified version of the CFML Complexity Metric Tool
+    mScan uses a modified version of the CFML Complexity Metric Tool
 
 ----------------
 
