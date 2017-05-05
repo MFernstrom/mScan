@@ -2,7 +2,7 @@
 An open source code quality scanner for CFML
 
 ### About
-mScan is an open source.. something.
+mScan is an open source static code analyzer engine.
 
 I call it a code quality scanner, but that's just because the original idea was to create an easily extendable test-engine that made very few assumptions.
 
@@ -17,7 +17,7 @@ It does eat some RAM, so I recommend 500+ allotted to the webapp.
 ### Install
 Drop into a root folder and start it up, done..
 
-Ok, there are a couple of requirements: OpenBD and Windows, and a recommended 500+ mb of ram
+There are a couple of requirements: OpenBD and Windows, and a recommended 500+ mb of ram
 
 I haven't tested it on any other engine, and the file-open assumes windows.
 
