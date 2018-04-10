@@ -2,17 +2,13 @@
 An open source code quality scanner for CFML
 
 ### About
-mScan is an open source static code analyzer engine.
-
-I call it a code quality scanner, but that's just because the original idea was to create an easily extendable test-engine that made very few assumptions.
-
-You can use it to write tests for any kind of file, in any kind of language.
+mScan is an open source static code analyzer.
 
 It's completely target-agnostic, though it does default the target file extensions to .cfm and .cfc
 
 It's threaded, so it's reasonably fast.
 
-It does eat some RAM, so I recommend 500+ allotted to the webapp.
+It can be a bit hungry, so I recommend 500+ ram allotted to the webapp.
 
 ### Install
 Drop into a root folder and start it up, done..
@@ -25,14 +21,14 @@ I haven't tested it on any other engine, and the file-open assumes windows.
 
 The GUI is pretty self-explanatory, but just in case:
 
-####Path (Absolute path to folder or file)
+#### Path (Absolute path to folder or file)
 Enter the absolute root folder of the files to scan.
 An absolute path is the same as what-the-path-looks-like-in-explorer, so for example c:\myawesomecfmlproject is an absolute path.
 
-####File extensions (Defaults to .cfc,.cfm)
+#### File extensions (Defaults to .cfc,.cfm)
 Enter the file extensions you want to scan.
 
-####Exclude paths (Absolute paths, one per line):
+#### Exclude paths (Absolute paths, one per line):
 I'll be honest, this one's a bit dodgy, as it uses 'contains', that's why I tell you to enter a full path.
 If you put the letter 'a', no file with a path that contains the letter 'a' will be scanned.
 
